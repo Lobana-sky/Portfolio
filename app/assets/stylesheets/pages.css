@@ -1,13 +1,4 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
-html, body {
-    background-size:141px 142px;  
-    font-family:"Oxygen"; 
-    font-weight:300; 
-    margin: 0;
-    padding: 0;
-  }
+
   
   @media (min-width: 1200px) {
     .container {
@@ -122,9 +113,13 @@ html, body {
   .feature p {
     font-size:18px; 
   }
-  
+
+  .nav-link a{
+    text-decoration: none !important;
+    color:rgb(138, 90, 90) !important;
+  }
   .footer {
-    background:#000;
+    background:rgb(161, 106, 106);
     padding:60px 0; 
   }
   
